@@ -1,0 +1,9 @@
+Samples,Data_Type,Conditions
+MRNA_A,RNA-Seq,Control
+MRNA_B,RNA-Seq,Control
+MRNA_C,RNA-Seq,Treated
+MRNA_D,RNA-Seq,Treated
+A,Ribo-Seq,Control
+B,Ribo-Seq,Control
+C,Ribo-Seq,Treated
+D,Ribo-Seq,Treated
