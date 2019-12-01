@@ -1,0 +1,17 @@
+Samples,Data_Type,Conditions
+WT_GpB_1,RNA-Seq,B
+WT_GpB_2,RNA-Seq,B
+WT_GpA_1,RNA-Seq,A
+WT_GpA_2,RNA-Seq,A
+WT_GpA_3,RNA-Seq,A
+WT_GpA_4,RNA-Seq,A
+WT_GpA_5,RNA-Seq,A
+WT_GpA_6,RNA-Seq,A
+GpB_1,Ribo-Seq,B
+GpB_2,Ribo-Seq,B
+GpA_1,Ribo-Seq,A
+GpA_2,Ribo-Seq,A
+GpA_3,Ribo-Seq,A
+GpA_4,Ribo-Seq,A
+GpA_5,Ribo-Seq,A
+GpA_6,Ribo-Seq,A
