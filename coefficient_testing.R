@@ -1,5 +1,5 @@
 #read in datasets
-#3805
+# read in dataset 3805
 sig_table <- read.table("SIGNIFICANT_3805.csv",header = TRUE) 
 
 #spearman
@@ -30,7 +30,7 @@ ken5
 ken6 <- cor.test(sig_table$RIBOREX,sig_table$RIBODIFF, method = "kendall")
 ken6 
 
-#6196
+#read in dataset 6196
 
 sig_table2 <- read.table("SIGNIFICANT_6196.csv",header = TRUE) 
 
