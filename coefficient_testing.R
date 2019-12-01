@@ -2,7 +2,7 @@
 # read in dataset 3805
 sig_table <- read.table("SIGNIFICANT_3805.csv",header = TRUE) 
 
-#spearman
+#spearman coefficient test
 spear1 <- cor.test(sig_table$XTAIL,sig_table$BABEL, method = "spearman")
 spear1 
 spear2 <- cor.test(sig_table$XTAIL,sig_table$RIBOREX, method = "spearman")
@@ -16,7 +16,7 @@ spear5
 spear6 <- cor.test(sig_table$RIBOREX,sig_table$RIBODIFF, method = "spearman")
 spear6 
 
-#kendall
+#kendall coefficient test
 ken1 <- cor.test(sig_table$XTAIL,sig_table$BABEL, method = "kendall")
 ken1 
 ken2 <- cor.test(sig_table$XTAIL,sig_table$RIBOREX, method = "kendall")
@@ -34,7 +34,7 @@ ken6
 
 sig_table2 <- read.table("SIGNIFICANT_6196.csv",header = TRUE) 
 
-#spearman
+#spearman coefficient test
 spe1 <- cor.test(sig_table2$XTAIL,sig_table2$BABEL, method = "spearman")
 spe1 
 spe2 <- cor.test(sig_table2$XTAIL,sig_table2$RIBOREX, method = "spearman")
@@ -48,7 +48,7 @@ spe5
 spe6 <- cor.test(sig_table2$RIBOREX,sig_table2$RIBODIFF, method = "spearman")
 spe6 
 
-#kendall
+#kendall coefficient test 
 k1 <- cor.test(sig_table2$XTAIL,sig_table2$BABEL, method = "kendall")
 k1 
 k2 <- cor.test(sig_table2$XTAIL,sig_table2$RIBOREX, method = "kendall")
